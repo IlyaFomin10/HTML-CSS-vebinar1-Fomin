@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #020A18;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1146px;
+}
+
+.header-link {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding: 40px 20px;
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 71.5px */
+    margin-bottom: 40px;
+}
+
+.dsc {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.button-link {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1rem 2rem;
+    background-color: #3A68B8;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    display: block;
+}
+
+.button-link:hover {
+    background-color: #fff;
+    color: #3A68B8;
+    border: 2px solid #3A68B8;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ai-left, .ai-right {
+    width: 47%;
+}
+
+.ai {
+    margin-bottom: 200px;
+}
+
+.fa-play {
+    margin-right: 10px;
+}
+
+.link-box {
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    height: 60px;
+}
+
+.logos {
+    margin-bottom: 256px;
+}
+
+.subject {
+    color: white;
+    font-size: 40px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+    width: 484px;
+}
+
+.sub-ai {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align-last: justify;
+}
+
+.sub-clients {
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+
+.awards {
+    display: flex;
+    margin-bottom: 257px;
+}
+
+.slogan {
+    color: white;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 31.25px;
+    word-wrap: break-word;
+    display: block;
+    margin: 0 30px 30px 30px;
+    text-align: center;
+
+}
+
+.ai_apply_left {
+    margin-bottom: 294px;
+}
+
+.ai_apply_left, .ai_apply_rirght {
+    width: 47%;
+}
+
+.ai_apply_right {
+    align-items: center;
+}
+
+.clients_left, .clients_right {
+    width: 47%;
+}
+
+.apply {
+    width: 460px;
+    text-align: justify;
+}
+
+.awards_part1, .awards_part2, .awards_part3 {
+    width: 32%;
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 10px;
+    backdrop-filter: blur(200px);
+}
+
+.img-awards {
+    margin: 30px auto 30px auto;
+    display: block;
+}
+
+.awards-text {
+    margin: 0 30px 30px 30px;
+    display: block;
+    text-align: center;
+}
+
+.text {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 215px;
+    background: rgba(43, 41, 41, 0.2);
+    backdrop-filter: blur(200px);
+    padding-bottom: 32px;
+}
+
+.info_part_1, .info_part2, .info_part3 {
+    width: 32%;
+}
+
+.heading {
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding-top: 48px;
+    margin-bottom: 33px;
+}
+
+.information {
+    color: white;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+
+.about {
+    color: white;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 100;
+    word-wrap: break-word;
+}
+
+.img-about {
+    padding-right: 24px;
+}

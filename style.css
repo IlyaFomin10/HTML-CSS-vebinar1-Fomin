@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     outline: none;
 }
 
@@ -14,8 +13,10 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-    width: 1146px;
+    /*margin: 0 auto;
+    width: 1146px;*/
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
 }
 
 .header-link {
@@ -117,7 +118,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 2rem;
-    height: 60px;
+    height: 58px;
 }
 
 .logos {
@@ -147,7 +148,7 @@ body {
 
 .awards {
     display: flex;
-    margin-bottom: 257px;
+    margin-bottom: 243px;
 }
 
 .slogan {
@@ -163,7 +164,7 @@ body {
 
 }
 
-.ai_apply_left {
+.ai_apply {
     margin-bottom: 294px;
 }
 
@@ -216,7 +217,7 @@ body {
 
 .footer {
     margin-top: 215px;
-    background: rgba(43, 41, 41, 0.2);
+    background-color: rgba(43, 41, 41, 0.2);
     backdrop-filter: blur(200px);
     padding-bottom: 32px;
 }
@@ -255,4 +256,89 @@ body {
 
 .img-about {
     padding-right: 24px;
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+        justify-content: center;
+    }
+
+    .ai-left, .ai-right, .ai_apply_left, .ai_apply_right {
+        width: 100%;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .text-ai {
+        max-width: 501px;
+    }
+
+    .ai-left {
+        padding-bottom: 128px;
+        max-width: 553px;
+    }
+
+    .ai-right {
+        max-width: 414px;
+        padding-bottom: 128px;
+    }
+
+    .log {
+        max-width: 700px;
+        gap: 32px
+    }
+
+    .ai_apply_left {
+        width: 594px;
+    }
+
+    .ai_apply_right {
+        width: 484px;
+    }
+
+    .awards_part1, .awards_part2, .awards_part3 {
+        width: 100%;
+        max-width: 362px;
+    }
+
+    .awards_part1, .awards_part2 {
+        margin-bottom: 32px;
+    }
+
+    .awards {
+        justify-content: center;
+    }
+
+    .clients_left, .clients_right {
+        width: 100%;
+    }
+
+    .clients_left {
+        max-width: 548px;
+        margin-bottom: 64px;
+    }
+
+    .clients_right {
+        max-width: 573px;
+    }
+
+    .text {
+        max-width: 460px;
+    }
+
+    .info_part_1, .info_part2, .info_part3 {
+        width: 50%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        padding-left: 2.5%;
+    }
 }
